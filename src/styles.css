@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/fondonegro.avif');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+iframe {
+    width: 100%;
+    height: 541.25px;
+    border: none;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
